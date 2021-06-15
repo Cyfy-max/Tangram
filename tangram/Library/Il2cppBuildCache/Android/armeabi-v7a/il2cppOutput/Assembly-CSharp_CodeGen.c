@@ -1,0 +1,759 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void SSTools::ShowMessage(System.String,SSTools/Position,SSTools/Time)
+extern void SSTools_ShowMessage_m7B565CE1B2E66E326C24E91939F5C088AAC7B3AB (void);
+// 0x00000002 System.Void SSTools::SetPosition(UnityEngine.RectTransform,SSTools/Position)
+extern void SSTools_SetPosition_mB3BCADB938CE54FD2B3BD7B61E7DC5E6BB603A24 (void);
+// 0x00000003 System.Void SSTools::RemoveClone(UnityEngine.GameObject,SSTools/Time)
+extern void SSTools_RemoveClone_mD1E9D474EEDBD0F13BED94E18BC975A29D63964B (void);
+// 0x00000004 System.Void SSTools::.ctor()
+extern void SSTools__ctor_mAADBE83E29798C5CF94AB6C336D0B67412C373E9 (void);
+// 0x00000005 System.Void DetectTouchMovement::Calculate()
+extern void DetectTouchMovement_Calculate_mFA4FEDE80BB58F25293C60879E3ADF70EADE206F (void);
+// 0x00000006 System.Single DetectTouchMovement::Angle(UnityEngine.Vector2,UnityEngine.Vector2)
+extern void DetectTouchMovement_Angle_mF8534D3407C46E0F428D9E797159AE0B2A623E13 (void);
+// 0x00000007 System.Void DetectTouchMovement::.ctor()
+extern void DetectTouchMovement__ctor_m007402FB63EF2437CC2415A3A31F3D4CDA8F9445 (void);
+// 0x00000008 System.Void DragManager::Update()
+extern void DragManager_Update_m9674257BB8A0BEDAB64D9464F154B8B1FCAF6C31 (void);
+// 0x00000009 System.Void DragManager::ValidateResult()
+extern void DragManager_ValidateResult_mA45DDEFC2B86D9AD8FCB6202219EE3FCCF6330EA (void);
+// 0x0000000A System.Void DragManager::AutoFit()
+extern void DragManager_AutoFit_m0F627DBC062749DCABA70239AFEF2DCA99F0D07C (void);
+// 0x0000000B System.Void DragManager::RestrictPosition()
+extern void DragManager_RestrictPosition_m50B90B0970E849D05B973415DCE1A1C5E45EA124 (void);
+// 0x0000000C UnityEngine.Vector2 DragManager::CurrentTouchPosition()
+extern void DragManager_CurrentTouchPosition_m79FE520BB7DBC0BB9C3AC97BD4C6517CFB9F7B93 (void);
+// 0x0000000D System.Void DragManager::DragOrPickUp()
+extern void DragManager_DragOrPickUp_m3168E187F3F31BDC38157D4222C3E280CC77DFBC (void);
+// 0x0000000E System.Void DragManager::ObjectRotationUpdate(UnityEngine.GameObject)
+extern void DragManager_ObjectRotationUpdate_m7790BBE7C7671D08D3AAE49D213ADCBA86718DD0 (void);
+// 0x0000000F System.Boolean DragManager::get_HasInput()
+extern void DragManager_get_HasInput_mFAC26877BAFA2F7BCDB479289BB738280F6B8D98 (void);
+// 0x00000010 System.Void DragManager::DropItem()
+extern void DragManager_DropItem_mDA0B3A0E664211736D1E18C8526A64EAA256C1DF (void);
+// 0x00000011 System.Void DragManager::.ctor()
+extern void DragManager__ctor_m196DC752CEC9FCF5FCD1FE0B48048955BF30C8AA (void);
+// 0x00000012 System.Void DragManager::.cctor()
+extern void DragManager__cctor_m6F0CD2EC16D642958ECAC269409768B19267DC3A (void);
+// 0x00000013 System.Void DragManager2::Update()
+extern void DragManager2_Update_m1D6CCF7899CE02C8D49C0B833F506EC0894457BF (void);
+// 0x00000014 System.Void DragManager2::ValidateResult()
+extern void DragManager2_ValidateResult_mFBB691DCECA60135599DD91EABFDE2988B440294 (void);
+// 0x00000015 System.Void DragManager2::AutoFit()
+extern void DragManager2_AutoFit_m2F99417684A27292246F83D225F7869BE64E46DF (void);
+// 0x00000016 System.Void DragManager2::RestrictPosition()
+extern void DragManager2_RestrictPosition_mB23FE59715EC15855F747611942D48E8D5A8B5B6 (void);
+// 0x00000017 UnityEngine.Vector2 DragManager2::CurrentTouchPosition()
+extern void DragManager2_CurrentTouchPosition_mD6DBFA66E9D854CB5F0D5D7EF88BF34864AD35C9 (void);
+// 0x00000018 System.Void DragManager2::DragOrPickUp()
+extern void DragManager2_DragOrPickUp_mC38EA32601F8946E8296C3814E5AC08D6AFEDA59 (void);
+// 0x00000019 System.Void DragManager2::ObjectRotationUpdate(UnityEngine.GameObject)
+extern void DragManager2_ObjectRotationUpdate_m329B9273F8ECD96E853D606DDDA08704FC81C24C (void);
+// 0x0000001A System.Boolean DragManager2::get_HasInput()
+extern void DragManager2_get_HasInput_mB3D0422AF38815F560A561540C5928A02D357072 (void);
+// 0x0000001B System.Void DragManager2::DropItem()
+extern void DragManager2_DropItem_m2F8DDBF4D0399FD42A5A405F1481F8F27541F516 (void);
+// 0x0000001C System.Void DragManager2::.ctor()
+extern void DragManager2__ctor_m2A60EBE6A821F5C0B91F5BCE16167A5F444767EE (void);
+// 0x0000001D System.Void DragManager2::.cctor()
+extern void DragManager2__cctor_m46E4FAF3CDBC7C7D5030E30BB05F4AB78D92A2AB (void);
+// 0x0000001E System.Void DragManager3::Update()
+extern void DragManager3_Update_mC73B108C43D163BA92A557C7489F5A875AB644D3 (void);
+// 0x0000001F System.Void DragManager3::ValidateResult()
+extern void DragManager3_ValidateResult_m4EF75EC642711CFEA00626A0AB0721CC3BA55611 (void);
+// 0x00000020 System.Void DragManager3::AutoFit()
+extern void DragManager3_AutoFit_mD76616CE5AE4AE368D4965D938A64FEAA96C4D8B (void);
+// 0x00000021 System.Void DragManager3::RestrictPosition()
+extern void DragManager3_RestrictPosition_m99EF3581B792BCB6BB0854C360E1FD8268DBB853 (void);
+// 0x00000022 UnityEngine.Vector2 DragManager3::CurrentTouchPosition()
+extern void DragManager3_CurrentTouchPosition_m66370923DD0B7721B7244F3D1BDF113879E6D95A (void);
+// 0x00000023 System.Void DragManager3::DragOrPickUp()
+extern void DragManager3_DragOrPickUp_mE43516436EA9D44E1DF6938F8209666AC69F8A4A (void);
+// 0x00000024 System.Void DragManager3::ObjectRotationUpdate(UnityEngine.GameObject)
+extern void DragManager3_ObjectRotationUpdate_mAEB40910EF4B868FFE13081DE45BC4D0F12EE28F (void);
+// 0x00000025 System.Boolean DragManager3::get_HasInput()
+extern void DragManager3_get_HasInput_mE7D4DDB73CADBCC12B9D21F9086A9DEE37C6ABB7 (void);
+// 0x00000026 System.Void DragManager3::DropItem()
+extern void DragManager3_DropItem_m874AA23DA2C9030D3B6F4F12A439AB94FF6FD430 (void);
+// 0x00000027 System.Void DragManager3::.ctor()
+extern void DragManager3__ctor_mB44005121ACE94FC83ED4CCB9B016EF046EE5A93 (void);
+// 0x00000028 System.Void DragManager3::.cctor()
+extern void DragManager3__cctor_m3DB03C5459429463BAB731A9EBFBFEC1F757AC0D (void);
+// 0x00000029 System.Void DragManager4::Update()
+extern void DragManager4_Update_mEAD9930DCF405C00C50D95F7716224286BDF693A (void);
+// 0x0000002A System.Void DragManager4::ValidateResult()
+extern void DragManager4_ValidateResult_mBA49922C10431DF1BAA6000A63F55F34D41D4BB9 (void);
+// 0x0000002B System.Void DragManager4::AutoFit()
+extern void DragManager4_AutoFit_m284288BC6FFEBE1705A569A43373106BDD986EAB (void);
+// 0x0000002C System.Void DragManager4::RestrictPosition()
+extern void DragManager4_RestrictPosition_m5F949806BB2B200F97FF8359A7DAD06726259368 (void);
+// 0x0000002D UnityEngine.Vector2 DragManager4::CurrentTouchPosition()
+extern void DragManager4_CurrentTouchPosition_m6FE07CCD19BBE4DA4C1D5FB84769A005C0BC2AD1 (void);
+// 0x0000002E System.Void DragManager4::DragOrPickUp()
+extern void DragManager4_DragOrPickUp_m2FCE3561F5656557C98DB1077673FEB4E573F0C3 (void);
+// 0x0000002F System.Void DragManager4::ObjectRotationUpdate(UnityEngine.GameObject)
+extern void DragManager4_ObjectRotationUpdate_mF1D1264A06D8D169F0C5C54DD46B9F08A9558BFC (void);
+// 0x00000030 System.Boolean DragManager4::get_HasInput()
+extern void DragManager4_get_HasInput_mC92354556100022427841E7204AB4240A099B7E0 (void);
+// 0x00000031 System.Void DragManager4::DropItem()
+extern void DragManager4_DropItem_m59075160F6036C9130BC72C7CF3537D9CBF0BAC1 (void);
+// 0x00000032 System.Void DragManager4::.ctor()
+extern void DragManager4__ctor_m6191C49CD07D2E0C03A3131ECC2B52A8CCBEAB45 (void);
+// 0x00000033 System.Void DragManager4::.cctor()
+extern void DragManager4__cctor_m67F19E9E750E24D6809CA28ECF136A19B0254701 (void);
+// 0x00000034 System.Void DragManager5::Update()
+extern void DragManager5_Update_m3A38D83B325BDE37E3038A88D451B2CB3C9D138E (void);
+// 0x00000035 System.Void DragManager5::ValidateResult()
+extern void DragManager5_ValidateResult_mB0ED969302659795A34B3564A51E036865241F39 (void);
+// 0x00000036 System.Void DragManager5::AutoFit()
+extern void DragManager5_AutoFit_m438885A1B32181D5812699AE851982361D2FDB67 (void);
+// 0x00000037 System.Void DragManager5::RestrictPosition()
+extern void DragManager5_RestrictPosition_mB1A91539696FD7616F5117C98C696A3028B2161E (void);
+// 0x00000038 UnityEngine.Vector2 DragManager5::CurrentTouchPosition()
+extern void DragManager5_CurrentTouchPosition_mFB6C4E1387E96FA31AE5AC8657AFCF6FEFF46CF7 (void);
+// 0x00000039 System.Void DragManager5::DragOrPickUp()
+extern void DragManager5_DragOrPickUp_m6DA56C90C6A73550C3E15BB7123AF025D2C695FA (void);
+// 0x0000003A System.Void DragManager5::ObjectRotationUpdate(UnityEngine.GameObject)
+extern void DragManager5_ObjectRotationUpdate_m42F42B3DA1F93A24F8075B442B62C420D388FC01 (void);
+// 0x0000003B System.Boolean DragManager5::get_HasInput()
+extern void DragManager5_get_HasInput_mEAEE88AEB2E42C3B081D85D027A2371CDE6330CD (void);
+// 0x0000003C System.Void DragManager5::DropItem()
+extern void DragManager5_DropItem_m80ABA8AF005FC1194EEFDEECECFA604C823EE5AE (void);
+// 0x0000003D System.Void DragManager5::.ctor()
+extern void DragManager5__ctor_m848A666BCDD88F598E8000025294F71519F24C33 (void);
+// 0x0000003E System.Void DragManager5::.cctor()
+extern void DragManager5__cctor_m1BD8B87A6C10A9C719F633E4AB86CDF6EFEE2212 (void);
+// 0x0000003F System.Void DragManager6::Update()
+extern void DragManager6_Update_m39F2073495702A2CF09542A8BC122641685CD526 (void);
+// 0x00000040 System.Void DragManager6::ValidateResult()
+extern void DragManager6_ValidateResult_mE6DBD8FE1829CE958FD750E62DBC3E24BF64193A (void);
+// 0x00000041 System.Void DragManager6::AutoFit()
+extern void DragManager6_AutoFit_m35386D05092D7FB55CD7C534D5339DEBD29A3851 (void);
+// 0x00000042 System.Void DragManager6::RestrictPosition()
+extern void DragManager6_RestrictPosition_m91A7BB5EF20C9A81ACD5D82ED55866C0885B0416 (void);
+// 0x00000043 UnityEngine.Vector2 DragManager6::CurrentTouchPosition()
+extern void DragManager6_CurrentTouchPosition_mA2915B5A6B8604724ED2F3D18B8E7DEDC61A165D (void);
+// 0x00000044 System.Void DragManager6::DragOrPickUp()
+extern void DragManager6_DragOrPickUp_m0AF0B7A540EC5ECC0E8467E2850F42C709BC5A9D (void);
+// 0x00000045 System.Void DragManager6::ObjectRotationUpdate(UnityEngine.GameObject)
+extern void DragManager6_ObjectRotationUpdate_mD8814EB8CF72EF60045DF9285E74D046CCB3494C (void);
+// 0x00000046 System.Boolean DragManager6::get_HasInput()
+extern void DragManager6_get_HasInput_m336F52F4D5B67B9328868B94F1748EEDA4147011 (void);
+// 0x00000047 System.Void DragManager6::DropItem()
+extern void DragManager6_DropItem_mED2644FA35F22AE0510AA3A43376B22D0380693B (void);
+// 0x00000048 System.Void DragManager6::.ctor()
+extern void DragManager6__ctor_m5BB7E9E1A79A8C4AC0F1C1B79F735A7BF081D78F (void);
+// 0x00000049 System.Void DragManager6::.cctor()
+extern void DragManager6__cctor_m3B9B46C82057C608D9C973A6113B95AD5230AE51 (void);
+// 0x0000004A System.Void DragManager7::Update()
+extern void DragManager7_Update_mD1F0F91CC6BCB34B85329A27971F61CE39D6BFAF (void);
+// 0x0000004B System.Void DragManager7::ValidateResult()
+extern void DragManager7_ValidateResult_m4D81F2CB1E651C9E572BDBB7B8815CC8B2BCE524 (void);
+// 0x0000004C System.Void DragManager7::AutoFit()
+extern void DragManager7_AutoFit_m2642DD5BE52A312CA2518F345CA31F495EB5F670 (void);
+// 0x0000004D System.Void DragManager7::RestrictPosition()
+extern void DragManager7_RestrictPosition_m225EB1074D2118E59D5D10EC8307FE14A7CFF736 (void);
+// 0x0000004E UnityEngine.Vector2 DragManager7::CurrentTouchPosition()
+extern void DragManager7_CurrentTouchPosition_mEACD16FAA7F55507B2D73858DA8DE380223010CD (void);
+// 0x0000004F System.Void DragManager7::DragOrPickUp()
+extern void DragManager7_DragOrPickUp_m294D46CDA2B832F115FA6A50C74ABB1EC7D85070 (void);
+// 0x00000050 System.Void DragManager7::ObjectRotationUpdate(UnityEngine.GameObject)
+extern void DragManager7_ObjectRotationUpdate_m4CFE1472375A00476FD4D5B4ED814DE9BB5A054C (void);
+// 0x00000051 System.Boolean DragManager7::get_HasInput()
+extern void DragManager7_get_HasInput_m097817BCAB63E5A4BEE69F3BA654FB1E998C1A6F (void);
+// 0x00000052 System.Void DragManager7::DropItem()
+extern void DragManager7_DropItem_m7FF4CA876D76F5DC0D5BC56CDF61134841606957 (void);
+// 0x00000053 System.Void DragManager7::.ctor()
+extern void DragManager7__ctor_mDCD8A9C1869D295EF76D9AD4B90BCD9A10CB48F9 (void);
+// 0x00000054 System.Void DragManager7::.cctor()
+extern void DragManager7__cctor_m850B4FAD0C90CFDF540E92A46F0F7F2ABE4670C4 (void);
+// 0x00000055 System.Void DragManager8::Update()
+extern void DragManager8_Update_mE2C1E993373100AEE316C6662923D8682DE58135 (void);
+// 0x00000056 System.Void DragManager8::ValidateResult()
+extern void DragManager8_ValidateResult_mA43EA6A9E87CAB60A6520C0B38B624553C9E0B67 (void);
+// 0x00000057 System.Void DragManager8::AutoFit()
+extern void DragManager8_AutoFit_m5F3E634424468098DC4F36D69B26340A612BB1D7 (void);
+// 0x00000058 System.Void DragManager8::RestrictPosition()
+extern void DragManager8_RestrictPosition_m8D50C5117D2260D5F0EDC6CDCD73E8B851DD3182 (void);
+// 0x00000059 UnityEngine.Vector2 DragManager8::CurrentTouchPosition()
+extern void DragManager8_CurrentTouchPosition_mC389170D922EEAE26062353BFF2C3AE792ACE8B2 (void);
+// 0x0000005A System.Void DragManager8::DragOrPickUp()
+extern void DragManager8_DragOrPickUp_m1F46CEA8BAE5DC89C41FB23F36318B4FACAA01FD (void);
+// 0x0000005B System.Void DragManager8::ObjectRotationUpdate(UnityEngine.GameObject)
+extern void DragManager8_ObjectRotationUpdate_mE69CE36B23517E8260BDDBE85228A1ACA56A33C8 (void);
+// 0x0000005C System.Boolean DragManager8::get_HasInput()
+extern void DragManager8_get_HasInput_m11090BB23538822221B9315C46745DF0828B0A11 (void);
+// 0x0000005D System.Void DragManager8::DropItem()
+extern void DragManager8_DropItem_m3FD72167576BD5811C54B8FAF225CAD59411D500 (void);
+// 0x0000005E System.Void DragManager8::.ctor()
+extern void DragManager8__ctor_m53C818594B57181C15D0E6C252731B0493BA837A (void);
+// 0x0000005F System.Void DragManager8::.cctor()
+extern void DragManager8__cctor_mD5504EE194DB3409E185FF7F5B90250CD4A7449E (void);
+// 0x00000060 System.Void DragManager9::Update()
+extern void DragManager9_Update_m18C9490C7E3B20A1B8FCB8FF786D70FC58E51884 (void);
+// 0x00000061 System.Void DragManager9::ValidateResult()
+extern void DragManager9_ValidateResult_m83C0103B84AC07D88A4947BBE940D253EB89EC8F (void);
+// 0x00000062 System.Void DragManager9::AutoFit()
+extern void DragManager9_AutoFit_m5CADA2017404983EAAC146621F1DBF9362D57664 (void);
+// 0x00000063 System.Void DragManager9::RestrictPosition()
+extern void DragManager9_RestrictPosition_m346287485A543893A57CE8B4F90062C3B686F361 (void);
+// 0x00000064 UnityEngine.Vector2 DragManager9::CurrentTouchPosition()
+extern void DragManager9_CurrentTouchPosition_mF3982933503A4E523320C1DFB03B73A945FDE632 (void);
+// 0x00000065 System.Void DragManager9::DragOrPickUp()
+extern void DragManager9_DragOrPickUp_m8819F434FC7D8DFD5A2577BD61470C9B098E3DB5 (void);
+// 0x00000066 System.Void DragManager9::ObjectRotationUpdate(UnityEngine.GameObject)
+extern void DragManager9_ObjectRotationUpdate_m2EE562A98A2978AEC518E7ACE2F5EA6AE1C2B33F (void);
+// 0x00000067 System.Boolean DragManager9::get_HasInput()
+extern void DragManager9_get_HasInput_m82A2466A00D8621E7E0328DF437986DCE30D4704 (void);
+// 0x00000068 System.Void DragManager9::DropItem()
+extern void DragManager9_DropItem_mBA3AA978357AA16F158068B84BF3452BF0B92C74 (void);
+// 0x00000069 System.Void DragManager9::.ctor()
+extern void DragManager9__ctor_m05132288B91CF6ADAFBD62B3EE908CFA9B0C08FE (void);
+// 0x0000006A System.Void DragManager9::.cctor()
+extern void DragManager9__cctor_mAE6245B853B7AE797DFA7EBE092EAAFDE22E98D2 (void);
+// 0x0000006B System.Collections.Generic.List`1<Assets.Script.Entity.ShapeGrid> GridManager::getGrid()
+extern void GridManager_getGrid_m8A97743FD8784AE5C08B4B9A98A248DB681784A6 (void);
+// 0x0000006C System.Void GridManager::loadGrid(UnityEngine.GameObject[])
+extern void GridManager_loadGrid_m0EE91FE114D5C9E154DE7D41D8B9BAC584AFEFED (void);
+// 0x0000006D System.Boolean GridManager::isGridExist(Assets.Script.Entity.ShapeGrid)
+extern void GridManager_isGridExist_mB28F76E0F8E80620EAA2BC3F86CEEECF41B94CED (void);
+// 0x0000006E Assets.Script.Entity.ShapeGrid GridManager::getGridByOffset(System.Double,System.Double,System.Double,System.Double,System.Double)
+extern void GridManager_getGridByOffset_mBAD1F21693CE1E56D7801A53AA23BC3993E0FBC0 (void);
+// 0x0000006F System.Void GridManager::.ctor()
+extern void GridManager__ctor_mA0C5D0BA6335DF2309495BC6F90061C3D82365FD (void);
+// 0x00000070 System.Void GridManager::.cctor()
+extern void GridManager__cctor_m1A0D4102C9134F068238AC0B464C98F00EBC2707 (void);
+// 0x00000071 System.Void LoadGame::Start()
+extern void LoadGame_Start_m70E22829F1CFF64DADCDF1566BF81390802509BA (void);
+// 0x00000072 System.Void LoadGame::Update()
+extern void LoadGame_Update_m92343BD177DCA87A64A5A126F53367464141DD56 (void);
+// 0x00000073 System.Void LoadGame::initObject()
+extern void LoadGame_initObject_m283B9419E746E0695092A4D78C10555636E604B6 (void);
+// 0x00000074 System.Void LoadGame::loadPosition()
+extern void LoadGame_loadPosition_m4F8E871FF426FE5FE2228746CF7E84802A3E2416 (void);
+// 0x00000075 System.Void LoadGame::.ctor()
+extern void LoadGame__ctor_m6A263A802A3BD2AC0DE9ADD95022394DD245FF0E (void);
+// 0x00000076 System.Void LoadGame::.cctor()
+extern void LoadGame__cctor_m92CD8FF484FBB2F0640AB43EC514E04319DE69A1 (void);
+// 0x00000077 System.Void LoadGame2::Start()
+extern void LoadGame2_Start_mA813DCB4038A4AF14ECA257DB20897E7C07D3AD9 (void);
+// 0x00000078 System.Void LoadGame2::Update()
+extern void LoadGame2_Update_m8434F0DBE05DBA1007D648188F231DB3A8F6500B (void);
+// 0x00000079 System.Void LoadGame2::initObject()
+extern void LoadGame2_initObject_mFB0E140A411C077D7260997FD22B45FA825C6C59 (void);
+// 0x0000007A System.Void LoadGame2::loadPosition()
+extern void LoadGame2_loadPosition_m873A0CA9BA9338BDCA8D1A892C52C809BF812B9D (void);
+// 0x0000007B System.Void LoadGame2::.ctor()
+extern void LoadGame2__ctor_mF629D4090D7658FD6CA9567D5AFFCD2820A735AC (void);
+// 0x0000007C System.Void LoadGame2::.cctor()
+extern void LoadGame2__cctor_m98B51CCF57A2FED7AE8F89C4B3C697C6D777C0FD (void);
+// 0x0000007D System.Void LoadGame3::Start()
+extern void LoadGame3_Start_m591CC87279E39801832FB575764E3F95D2435ABC (void);
+// 0x0000007E System.Void LoadGame3::Update()
+extern void LoadGame3_Update_mD0D662EFC5925F1B2BDB6B1F938E98F98F48D96D (void);
+// 0x0000007F System.Void LoadGame3::initObject()
+extern void LoadGame3_initObject_mB65948C911090856C3161E18735A9614DF302420 (void);
+// 0x00000080 System.Void LoadGame3::loadPosition()
+extern void LoadGame3_loadPosition_mD2AAB337C01CE7527145D8AA872509FA79CDA7DF (void);
+// 0x00000081 System.Void LoadGame3::.ctor()
+extern void LoadGame3__ctor_m312DFD178CB29CB9743761FF9E5E493FE5C5DF58 (void);
+// 0x00000082 System.Void LoadGame3::.cctor()
+extern void LoadGame3__cctor_m2ACF3EEA612A95822649B6A3A1E38074DC6E813C (void);
+// 0x00000083 System.Void LoadGame4::Start()
+extern void LoadGame4_Start_mF10427082E787315B8B1762B2372CC955A8CCBD6 (void);
+// 0x00000084 System.Void LoadGame4::Update()
+extern void LoadGame4_Update_mC9972B93B229B4FABFC2536438C179F27446182E (void);
+// 0x00000085 System.Void LoadGame4::initObject()
+extern void LoadGame4_initObject_mA062F1CA8C499477DED94168437BCD0EBB6D7755 (void);
+// 0x00000086 System.Void LoadGame4::loadPosition()
+extern void LoadGame4_loadPosition_m2FB9B20428BFAE7C7EB71EE3BB6F51DB400E0D7B (void);
+// 0x00000087 System.Void LoadGame4::.ctor()
+extern void LoadGame4__ctor_mF8A847C519A07738D5C62B025EA45248901AD87A (void);
+// 0x00000088 System.Void LoadGame4::.cctor()
+extern void LoadGame4__cctor_m0BFD3CADA9C6D4189C7BB2B5CAA4879A724595AC (void);
+// 0x00000089 System.Void LoadGame5::Start()
+extern void LoadGame5_Start_m9976A677AEF2744C6A157AA276A347AE587A7779 (void);
+// 0x0000008A System.Void LoadGame5::Update()
+extern void LoadGame5_Update_mCD5EBCA8C661A7DD0DAE0CBE781BC4BF98D5BC81 (void);
+// 0x0000008B System.Void LoadGame5::initObject()
+extern void LoadGame5_initObject_mAAE1B37BE63CC3D183ACEE443CAF4695963802CB (void);
+// 0x0000008C System.Void LoadGame5::loadPosition()
+extern void LoadGame5_loadPosition_m853563D3EEF2B94CC22B8D48185958333286A97F (void);
+// 0x0000008D System.Void LoadGame5::.ctor()
+extern void LoadGame5__ctor_m67E906729E6E1C2F799C5D88D726BF3338081368 (void);
+// 0x0000008E System.Void LoadGame5::.cctor()
+extern void LoadGame5__cctor_mA4D88308A2BB1B0C97A10F94999FEAB1E1A5E39A (void);
+// 0x0000008F System.Void LoadGame6::Start()
+extern void LoadGame6_Start_m3F85168C88D1BA9E8531DA80999383FF481109DB (void);
+// 0x00000090 System.Void LoadGame6::Update()
+extern void LoadGame6_Update_mA927D654EA5164B75BDD91D2FA18FE88D281032A (void);
+// 0x00000091 System.Void LoadGame6::initObject()
+extern void LoadGame6_initObject_m71D8E2CEFD41E9A6217DD96CA9927582FF1E12E8 (void);
+// 0x00000092 System.Void LoadGame6::loadPosition()
+extern void LoadGame6_loadPosition_m5A1C695E0CF76EA2232C0DD310BBE8610BE92637 (void);
+// 0x00000093 System.Void LoadGame6::.ctor()
+extern void LoadGame6__ctor_m34F30C5361654E11649AD1A9D9284B398A938BDD (void);
+// 0x00000094 System.Void LoadGame6::.cctor()
+extern void LoadGame6__cctor_m240E96B6020D4DDB2F0BA53C266BB1746DE29F95 (void);
+// 0x00000095 System.Void LoadGame7::Start()
+extern void LoadGame7_Start_m2931797E67B2BDE0A9A4BDCE405D71CCC4625A55 (void);
+// 0x00000096 System.Void LoadGame7::Update()
+extern void LoadGame7_Update_mFA25C0DCB76720FD95BC5F2A98555F9EA719E6E0 (void);
+// 0x00000097 System.Void LoadGame7::initObject()
+extern void LoadGame7_initObject_m240AA1A164D8BE960C5755AAE0ACB798BE99DA79 (void);
+// 0x00000098 System.Void LoadGame7::loadPosition()
+extern void LoadGame7_loadPosition_mE04C4F2811F5669800818084EEE0633F6C9AAD91 (void);
+// 0x00000099 System.Void LoadGame7::.ctor()
+extern void LoadGame7__ctor_mD8B706024CA5F6BFB564073BF57BA693DB91DDEA (void);
+// 0x0000009A System.Void LoadGame7::.cctor()
+extern void LoadGame7__cctor_m3DD8928DECDB4F7037103267756A548FDE0439B3 (void);
+// 0x0000009B System.Void LoadGame8::Start()
+extern void LoadGame8_Start_m6A3A8D062D7342D1C2BF4C4B66AED2B8F147AE79 (void);
+// 0x0000009C System.Void LoadGame8::Update()
+extern void LoadGame8_Update_m313E2C76042E3F8765470E708D717D1A1F39C49A (void);
+// 0x0000009D System.Void LoadGame8::initObject()
+extern void LoadGame8_initObject_mCD94B71A46CEA2C5AA5C1302482CE730237B1B77 (void);
+// 0x0000009E System.Void LoadGame8::loadPosition()
+extern void LoadGame8_loadPosition_m3EEF57A7E976A365928374DDB623397A6D83B8F3 (void);
+// 0x0000009F System.Void LoadGame8::.ctor()
+extern void LoadGame8__ctor_m2654332D60E7E0902D4E339D19666EDC1E4C2110 (void);
+// 0x000000A0 System.Void LoadGame8::.cctor()
+extern void LoadGame8__cctor_mAB2704FC43BA1443D84E990E9ECC321B46C468AF (void);
+// 0x000000A1 System.Void LoadGame9::Start()
+extern void LoadGame9_Start_m6C9EA570C076FB86350C9641641DC2027C5BF395 (void);
+// 0x000000A2 System.Void LoadGame9::Update()
+extern void LoadGame9_Update_m04B3E8D0C6F69937765CF32E5022D5842D8C67EA (void);
+// 0x000000A3 System.Void LoadGame9::initObject()
+extern void LoadGame9_initObject_m1C1ED99EC0D6FB1FFA619649DBB0218B9D7B7A60 (void);
+// 0x000000A4 System.Void LoadGame9::loadPosition()
+extern void LoadGame9_loadPosition_m7E383DCA137125F96980ABA7F7F7F42002C67ED7 (void);
+// 0x000000A5 System.Void LoadGame9::.ctor()
+extern void LoadGame9__ctor_m509C49AD0BD497B645575A8202D1E260AF1DBB1B (void);
+// 0x000000A6 System.Void LoadGame9::.cctor()
+extern void LoadGame9__cctor_mF3994895775EA8E21939C08BE52564319E1FD3CC (void);
+// 0x000000A7 System.Void StartScene::SceneLoader(System.Int32)
+extern void StartScene_SceneLoader_m11A483E9408B4E9266F5054263478BDF4696E3BF (void);
+// 0x000000A8 System.Void StartScene::Start()
+extern void StartScene_Start_m8B070C8D5DBF13B73F2476A9BB86082929129240 (void);
+// 0x000000A9 System.Void StartScene::Update()
+extern void StartScene_Update_mA06F5B0FE2C3CD096F032CFDA9B8A51BDCB423FB (void);
+// 0x000000AA System.Void StartScene::.ctor()
+extern void StartScene__ctor_m7B753C8D43FE9721328A47C6C91E6557E7C457B5 (void);
+// 0x000000AB System.Boolean Validate::Validation()
+extern void Validate_Validation_m9DC92841E0BB78E9DEC01F613ABDD105D11FD287 (void);
+// 0x000000AC System.Void Validate::.ctor()
+extern void Validate__ctor_m29C163EBA0BA77F51177A50DE80834D9B6E99506 (void);
+// 0x000000AD System.Void Assets.AppConstant::.ctor()
+extern void AppConstant__ctor_mD35651DBF968FAC0EF0465B582C18554C3BE5949 (void);
+// 0x000000AE System.Void Assets.AppConstant::.cctor()
+extern void AppConstant__cctor_m86ED0C207DA75DD192DAB145D459ED92E7447E60 (void);
+// 0x000000AF System.Double Assets.Script.Util::getDistance(System.Double,System.Double,System.Double,System.Double)
+extern void Util_getDistance_mC79562F439249765CF8B86B91BA2C700BF9F8577 (void);
+// 0x000000B0 System.Void Assets.Script.Util::.ctor()
+extern void Util__ctor_m4EC516DAE5B049AD652EA53D263D16C63E3CFD81 (void);
+// 0x000000B1 System.Void Assets.Script.Entity.ShapeGrid::.ctor(System.Double,System.Double)
+extern void ShapeGrid__ctor_mEAA8FCF2CDF93CBE23BE6308527A7D5ED0FD545E (void);
+// 0x000000B2 Assets.Script.Entity.ShapeGrid[][] Assets.Script.Entity.ShapeGrid::getShapesGrid()
+extern void ShapeGrid_getShapesGrid_m61F9D095E85E0DDC870878E385080BABD1F547A7 (void);
+// 0x000000B3 System.Void Assets.Script.Entity.ShapeGrid::.cctor()
+extern void ShapeGrid__cctor_m9C6013EB5DE6B9D0FED1F480904584E9478E896D (void);
+static Il2CppMethodPointer s_methodPointers[179] = 
+{
+	SSTools_ShowMessage_m7B565CE1B2E66E326C24E91939F5C088AAC7B3AB,
+	SSTools_SetPosition_mB3BCADB938CE54FD2B3BD7B61E7DC5E6BB603A24,
+	SSTools_RemoveClone_mD1E9D474EEDBD0F13BED94E18BC975A29D63964B,
+	SSTools__ctor_mAADBE83E29798C5CF94AB6C336D0B67412C373E9,
+	DetectTouchMovement_Calculate_mFA4FEDE80BB58F25293C60879E3ADF70EADE206F,
+	DetectTouchMovement_Angle_mF8534D3407C46E0F428D9E797159AE0B2A623E13,
+	DetectTouchMovement__ctor_m007402FB63EF2437CC2415A3A31F3D4CDA8F9445,
+	DragManager_Update_m9674257BB8A0BEDAB64D9464F154B8B1FCAF6C31,
+	DragManager_ValidateResult_mA45DDEFC2B86D9AD8FCB6202219EE3FCCF6330EA,
+	DragManager_AutoFit_m0F627DBC062749DCABA70239AFEF2DCA99F0D07C,
+	DragManager_RestrictPosition_m50B90B0970E849D05B973415DCE1A1C5E45EA124,
+	DragManager_CurrentTouchPosition_m79FE520BB7DBC0BB9C3AC97BD4C6517CFB9F7B93,
+	DragManager_DragOrPickUp_m3168E187F3F31BDC38157D4222C3E280CC77DFBC,
+	DragManager_ObjectRotationUpdate_m7790BBE7C7671D08D3AAE49D213ADCBA86718DD0,
+	DragManager_get_HasInput_mFAC26877BAFA2F7BCDB479289BB738280F6B8D98,
+	DragManager_DropItem_mDA0B3A0E664211736D1E18C8526A64EAA256C1DF,
+	DragManager__ctor_m196DC752CEC9FCF5FCD1FE0B48048955BF30C8AA,
+	DragManager__cctor_m6F0CD2EC16D642958ECAC269409768B19267DC3A,
+	DragManager2_Update_m1D6CCF7899CE02C8D49C0B833F506EC0894457BF,
+	DragManager2_ValidateResult_mFBB691DCECA60135599DD91EABFDE2988B440294,
+	DragManager2_AutoFit_m2F99417684A27292246F83D225F7869BE64E46DF,
+	DragManager2_RestrictPosition_mB23FE59715EC15855F747611942D48E8D5A8B5B6,
+	DragManager2_CurrentTouchPosition_mD6DBFA66E9D854CB5F0D5D7EF88BF34864AD35C9,
+	DragManager2_DragOrPickUp_mC38EA32601F8946E8296C3814E5AC08D6AFEDA59,
+	DragManager2_ObjectRotationUpdate_m329B9273F8ECD96E853D606DDDA08704FC81C24C,
+	DragManager2_get_HasInput_mB3D0422AF38815F560A561540C5928A02D357072,
+	DragManager2_DropItem_m2F8DDBF4D0399FD42A5A405F1481F8F27541F516,
+	DragManager2__ctor_m2A60EBE6A821F5C0B91F5BCE16167A5F444767EE,
+	DragManager2__cctor_m46E4FAF3CDBC7C7D5030E30BB05F4AB78D92A2AB,
+	DragManager3_Update_mC73B108C43D163BA92A557C7489F5A875AB644D3,
+	DragManager3_ValidateResult_m4EF75EC642711CFEA00626A0AB0721CC3BA55611,
+	DragManager3_AutoFit_mD76616CE5AE4AE368D4965D938A64FEAA96C4D8B,
+	DragManager3_RestrictPosition_m99EF3581B792BCB6BB0854C360E1FD8268DBB853,
+	DragManager3_CurrentTouchPosition_m66370923DD0B7721B7244F3D1BDF113879E6D95A,
+	DragManager3_DragOrPickUp_mE43516436EA9D44E1DF6938F8209666AC69F8A4A,
+	DragManager3_ObjectRotationUpdate_mAEB40910EF4B868FFE13081DE45BC4D0F12EE28F,
+	DragManager3_get_HasInput_mE7D4DDB73CADBCC12B9D21F9086A9DEE37C6ABB7,
+	DragManager3_DropItem_m874AA23DA2C9030D3B6F4F12A439AB94FF6FD430,
+	DragManager3__ctor_mB44005121ACE94FC83ED4CCB9B016EF046EE5A93,
+	DragManager3__cctor_m3DB03C5459429463BAB731A9EBFBFEC1F757AC0D,
+	DragManager4_Update_mEAD9930DCF405C00C50D95F7716224286BDF693A,
+	DragManager4_ValidateResult_mBA49922C10431DF1BAA6000A63F55F34D41D4BB9,
+	DragManager4_AutoFit_m284288BC6FFEBE1705A569A43373106BDD986EAB,
+	DragManager4_RestrictPosition_m5F949806BB2B200F97FF8359A7DAD06726259368,
+	DragManager4_CurrentTouchPosition_m6FE07CCD19BBE4DA4C1D5FB84769A005C0BC2AD1,
+	DragManager4_DragOrPickUp_m2FCE3561F5656557C98DB1077673FEB4E573F0C3,
+	DragManager4_ObjectRotationUpdate_mF1D1264A06D8D169F0C5C54DD46B9F08A9558BFC,
+	DragManager4_get_HasInput_mC92354556100022427841E7204AB4240A099B7E0,
+	DragManager4_DropItem_m59075160F6036C9130BC72C7CF3537D9CBF0BAC1,
+	DragManager4__ctor_m6191C49CD07D2E0C03A3131ECC2B52A8CCBEAB45,
+	DragManager4__cctor_m67F19E9E750E24D6809CA28ECF136A19B0254701,
+	DragManager5_Update_m3A38D83B325BDE37E3038A88D451B2CB3C9D138E,
+	DragManager5_ValidateResult_mB0ED969302659795A34B3564A51E036865241F39,
+	DragManager5_AutoFit_m438885A1B32181D5812699AE851982361D2FDB67,
+	DragManager5_RestrictPosition_mB1A91539696FD7616F5117C98C696A3028B2161E,
+	DragManager5_CurrentTouchPosition_mFB6C4E1387E96FA31AE5AC8657AFCF6FEFF46CF7,
+	DragManager5_DragOrPickUp_m6DA56C90C6A73550C3E15BB7123AF025D2C695FA,
+	DragManager5_ObjectRotationUpdate_m42F42B3DA1F93A24F8075B442B62C420D388FC01,
+	DragManager5_get_HasInput_mEAEE88AEB2E42C3B081D85D027A2371CDE6330CD,
+	DragManager5_DropItem_m80ABA8AF005FC1194EEFDEECECFA604C823EE5AE,
+	DragManager5__ctor_m848A666BCDD88F598E8000025294F71519F24C33,
+	DragManager5__cctor_m1BD8B87A6C10A9C719F633E4AB86CDF6EFEE2212,
+	DragManager6_Update_m39F2073495702A2CF09542A8BC122641685CD526,
+	DragManager6_ValidateResult_mE6DBD8FE1829CE958FD750E62DBC3E24BF64193A,
+	DragManager6_AutoFit_m35386D05092D7FB55CD7C534D5339DEBD29A3851,
+	DragManager6_RestrictPosition_m91A7BB5EF20C9A81ACD5D82ED55866C0885B0416,
+	DragManager6_CurrentTouchPosition_mA2915B5A6B8604724ED2F3D18B8E7DEDC61A165D,
+	DragManager6_DragOrPickUp_m0AF0B7A540EC5ECC0E8467E2850F42C709BC5A9D,
+	DragManager6_ObjectRotationUpdate_mD8814EB8CF72EF60045DF9285E74D046CCB3494C,
+	DragManager6_get_HasInput_m336F52F4D5B67B9328868B94F1748EEDA4147011,
+	DragManager6_DropItem_mED2644FA35F22AE0510AA3A43376B22D0380693B,
+	DragManager6__ctor_m5BB7E9E1A79A8C4AC0F1C1B79F735A7BF081D78F,
+	DragManager6__cctor_m3B9B46C82057C608D9C973A6113B95AD5230AE51,
+	DragManager7_Update_mD1F0F91CC6BCB34B85329A27971F61CE39D6BFAF,
+	DragManager7_ValidateResult_m4D81F2CB1E651C9E572BDBB7B8815CC8B2BCE524,
+	DragManager7_AutoFit_m2642DD5BE52A312CA2518F345CA31F495EB5F670,
+	DragManager7_RestrictPosition_m225EB1074D2118E59D5D10EC8307FE14A7CFF736,
+	DragManager7_CurrentTouchPosition_mEACD16FAA7F55507B2D73858DA8DE380223010CD,
+	DragManager7_DragOrPickUp_m294D46CDA2B832F115FA6A50C74ABB1EC7D85070,
+	DragManager7_ObjectRotationUpdate_m4CFE1472375A00476FD4D5B4ED814DE9BB5A054C,
+	DragManager7_get_HasInput_m097817BCAB63E5A4BEE69F3BA654FB1E998C1A6F,
+	DragManager7_DropItem_m7FF4CA876D76F5DC0D5BC56CDF61134841606957,
+	DragManager7__ctor_mDCD8A9C1869D295EF76D9AD4B90BCD9A10CB48F9,
+	DragManager7__cctor_m850B4FAD0C90CFDF540E92A46F0F7F2ABE4670C4,
+	DragManager8_Update_mE2C1E993373100AEE316C6662923D8682DE58135,
+	DragManager8_ValidateResult_mA43EA6A9E87CAB60A6520C0B38B624553C9E0B67,
+	DragManager8_AutoFit_m5F3E634424468098DC4F36D69B26340A612BB1D7,
+	DragManager8_RestrictPosition_m8D50C5117D2260D5F0EDC6CDCD73E8B851DD3182,
+	DragManager8_CurrentTouchPosition_mC389170D922EEAE26062353BFF2C3AE792ACE8B2,
+	DragManager8_DragOrPickUp_m1F46CEA8BAE5DC89C41FB23F36318B4FACAA01FD,
+	DragManager8_ObjectRotationUpdate_mE69CE36B23517E8260BDDBE85228A1ACA56A33C8,
+	DragManager8_get_HasInput_m11090BB23538822221B9315C46745DF0828B0A11,
+	DragManager8_DropItem_m3FD72167576BD5811C54B8FAF225CAD59411D500,
+	DragManager8__ctor_m53C818594B57181C15D0E6C252731B0493BA837A,
+	DragManager8__cctor_mD5504EE194DB3409E185FF7F5B90250CD4A7449E,
+	DragManager9_Update_m18C9490C7E3B20A1B8FCB8FF786D70FC58E51884,
+	DragManager9_ValidateResult_m83C0103B84AC07D88A4947BBE940D253EB89EC8F,
+	DragManager9_AutoFit_m5CADA2017404983EAAC146621F1DBF9362D57664,
+	DragManager9_RestrictPosition_m346287485A543893A57CE8B4F90062C3B686F361,
+	DragManager9_CurrentTouchPosition_mF3982933503A4E523320C1DFB03B73A945FDE632,
+	DragManager9_DragOrPickUp_m8819F434FC7D8DFD5A2577BD61470C9B098E3DB5,
+	DragManager9_ObjectRotationUpdate_m2EE562A98A2978AEC518E7ACE2F5EA6AE1C2B33F,
+	DragManager9_get_HasInput_m82A2466A00D8621E7E0328DF437986DCE30D4704,
+	DragManager9_DropItem_mBA3AA978357AA16F158068B84BF3452BF0B92C74,
+	DragManager9__ctor_m05132288B91CF6ADAFBD62B3EE908CFA9B0C08FE,
+	DragManager9__cctor_mAE6245B853B7AE797DFA7EBE092EAAFDE22E98D2,
+	GridManager_getGrid_m8A97743FD8784AE5C08B4B9A98A248DB681784A6,
+	GridManager_loadGrid_m0EE91FE114D5C9E154DE7D41D8B9BAC584AFEFED,
+	GridManager_isGridExist_mB28F76E0F8E80620EAA2BC3F86CEEECF41B94CED,
+	GridManager_getGridByOffset_mBAD1F21693CE1E56D7801A53AA23BC3993E0FBC0,
+	GridManager__ctor_mA0C5D0BA6335DF2309495BC6F90061C3D82365FD,
+	GridManager__cctor_m1A0D4102C9134F068238AC0B464C98F00EBC2707,
+	LoadGame_Start_m70E22829F1CFF64DADCDF1566BF81390802509BA,
+	LoadGame_Update_m92343BD177DCA87A64A5A126F53367464141DD56,
+	LoadGame_initObject_m283B9419E746E0695092A4D78C10555636E604B6,
+	LoadGame_loadPosition_m4F8E871FF426FE5FE2228746CF7E84802A3E2416,
+	LoadGame__ctor_m6A263A802A3BD2AC0DE9ADD95022394DD245FF0E,
+	LoadGame__cctor_m92CD8FF484FBB2F0640AB43EC514E04319DE69A1,
+	LoadGame2_Start_mA813DCB4038A4AF14ECA257DB20897E7C07D3AD9,
+	LoadGame2_Update_m8434F0DBE05DBA1007D648188F231DB3A8F6500B,
+	LoadGame2_initObject_mFB0E140A411C077D7260997FD22B45FA825C6C59,
+	LoadGame2_loadPosition_m873A0CA9BA9338BDCA8D1A892C52C809BF812B9D,
+	LoadGame2__ctor_mF629D4090D7658FD6CA9567D5AFFCD2820A735AC,
+	LoadGame2__cctor_m98B51CCF57A2FED7AE8F89C4B3C697C6D777C0FD,
+	LoadGame3_Start_m591CC87279E39801832FB575764E3F95D2435ABC,
+	LoadGame3_Update_mD0D662EFC5925F1B2BDB6B1F938E98F98F48D96D,
+	LoadGame3_initObject_mB65948C911090856C3161E18735A9614DF302420,
+	LoadGame3_loadPosition_mD2AAB337C01CE7527145D8AA872509FA79CDA7DF,
+	LoadGame3__ctor_m312DFD178CB29CB9743761FF9E5E493FE5C5DF58,
+	LoadGame3__cctor_m2ACF3EEA612A95822649B6A3A1E38074DC6E813C,
+	LoadGame4_Start_mF10427082E787315B8B1762B2372CC955A8CCBD6,
+	LoadGame4_Update_mC9972B93B229B4FABFC2536438C179F27446182E,
+	LoadGame4_initObject_mA062F1CA8C499477DED94168437BCD0EBB6D7755,
+	LoadGame4_loadPosition_m2FB9B20428BFAE7C7EB71EE3BB6F51DB400E0D7B,
+	LoadGame4__ctor_mF8A847C519A07738D5C62B025EA45248901AD87A,
+	LoadGame4__cctor_m0BFD3CADA9C6D4189C7BB2B5CAA4879A724595AC,
+	LoadGame5_Start_m9976A677AEF2744C6A157AA276A347AE587A7779,
+	LoadGame5_Update_mCD5EBCA8C661A7DD0DAE0CBE781BC4BF98D5BC81,
+	LoadGame5_initObject_mAAE1B37BE63CC3D183ACEE443CAF4695963802CB,
+	LoadGame5_loadPosition_m853563D3EEF2B94CC22B8D48185958333286A97F,
+	LoadGame5__ctor_m67E906729E6E1C2F799C5D88D726BF3338081368,
+	LoadGame5__cctor_mA4D88308A2BB1B0C97A10F94999FEAB1E1A5E39A,
+	LoadGame6_Start_m3F85168C88D1BA9E8531DA80999383FF481109DB,
+	LoadGame6_Update_mA927D654EA5164B75BDD91D2FA18FE88D281032A,
+	LoadGame6_initObject_m71D8E2CEFD41E9A6217DD96CA9927582FF1E12E8,
+	LoadGame6_loadPosition_m5A1C695E0CF76EA2232C0DD310BBE8610BE92637,
+	LoadGame6__ctor_m34F30C5361654E11649AD1A9D9284B398A938BDD,
+	LoadGame6__cctor_m240E96B6020D4DDB2F0BA53C266BB1746DE29F95,
+	LoadGame7_Start_m2931797E67B2BDE0A9A4BDCE405D71CCC4625A55,
+	LoadGame7_Update_mFA25C0DCB76720FD95BC5F2A98555F9EA719E6E0,
+	LoadGame7_initObject_m240AA1A164D8BE960C5755AAE0ACB798BE99DA79,
+	LoadGame7_loadPosition_mE04C4F2811F5669800818084EEE0633F6C9AAD91,
+	LoadGame7__ctor_mD8B706024CA5F6BFB564073BF57BA693DB91DDEA,
+	LoadGame7__cctor_m3DD8928DECDB4F7037103267756A548FDE0439B3,
+	LoadGame8_Start_m6A3A8D062D7342D1C2BF4C4B66AED2B8F147AE79,
+	LoadGame8_Update_m313E2C76042E3F8765470E708D717D1A1F39C49A,
+	LoadGame8_initObject_mCD94B71A46CEA2C5AA5C1302482CE730237B1B77,
+	LoadGame8_loadPosition_m3EEF57A7E976A365928374DDB623397A6D83B8F3,
+	LoadGame8__ctor_m2654332D60E7E0902D4E339D19666EDC1E4C2110,
+	LoadGame8__cctor_mAB2704FC43BA1443D84E990E9ECC321B46C468AF,
+	LoadGame9_Start_m6C9EA570C076FB86350C9641641DC2027C5BF395,
+	LoadGame9_Update_m04B3E8D0C6F69937765CF32E5022D5842D8C67EA,
+	LoadGame9_initObject_m1C1ED99EC0D6FB1FFA619649DBB0218B9D7B7A60,
+	LoadGame9_loadPosition_m7E383DCA137125F96980ABA7F7F7F42002C67ED7,
+	LoadGame9__ctor_m509C49AD0BD497B645575A8202D1E260AF1DBB1B,
+	LoadGame9__cctor_mF3994895775EA8E21939C08BE52564319E1FD3CC,
+	StartScene_SceneLoader_m11A483E9408B4E9266F5054263478BDF4696E3BF,
+	StartScene_Start_m8B070C8D5DBF13B73F2476A9BB86082929129240,
+	StartScene_Update_mA06F5B0FE2C3CD096F032CFDA9B8A51BDCB423FB,
+	StartScene__ctor_m7B753C8D43FE9721328A47C6C91E6557E7C457B5,
+	Validate_Validation_m9DC92841E0BB78E9DEC01F613ABDD105D11FD287,
+	Validate__ctor_m29C163EBA0BA77F51177A50DE80834D9B6E99506,
+	AppConstant__ctor_mD35651DBF968FAC0EF0465B582C18554C3BE5949,
+	AppConstant__cctor_m86ED0C207DA75DD192DAB145D459ED92E7447E60,
+	Util_getDistance_mC79562F439249765CF8B86B91BA2C700BF9F8577,
+	Util__ctor_m4EC516DAE5B049AD652EA53D263D16C63E3CFD81,
+	ShapeGrid__ctor_mEAA8FCF2CDF93CBE23BE6308527A7D5ED0FD545E,
+	ShapeGrid_getShapesGrid_m61F9D095E85E0DDC870878E385080BABD1F547A7,
+	ShapeGrid__cctor_m9C6013EB5DE6B9D0FED1F480904584E9478E896D,
+};
+static const int32_t s_InvokerIndices[179] = 
+{
+	1583,
+	1780,
+	1780,
+	1146,
+	1969,
+	1743,
+	1146,
+	1146,
+	1146,
+	1146,
+	1146,
+	1142,
+	1146,
+	981,
+	1133,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1142,
+	1146,
+	981,
+	1133,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1142,
+	1146,
+	981,
+	1133,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1142,
+	1146,
+	981,
+	1133,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1142,
+	1146,
+	981,
+	1133,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1142,
+	1146,
+	981,
+	1133,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1142,
+	1146,
+	981,
+	1133,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1142,
+	1146,
+	981,
+	1133,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1142,
+	1146,
+	981,
+	1133,
+	1146,
+	1146,
+	1969,
+	1956,
+	1934,
+	1898,
+	1266,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1146,
+	1969,
+	1146,
+	1146,
+	1146,
+	1146,
+	1146,
+	1969,
+	972,
+	1146,
+	1146,
+	1146,
+	1963,
+	1146,
+	1146,
+	1969,
+	1309,
+	1146,
+	569,
+	1956,
+	1969,
+};
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	179,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_AssemblyU2DCSharp_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
